@@ -4,15 +4,14 @@
 bundle
 ```
 
-## Run:
+## Run
 
 ```shell
 bundle exec jekyll s
 ```
 
-```
-Local server at http://127.0.0.1:4000
-```
+> Local server at http://127.0.0.1:4000
+
 
 ## Theme
 
