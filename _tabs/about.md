@@ -4,5 +4,5 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Hola mundo!
+> Hi there! Here I keep notes on subjects I study
 {: .prompt-tip }

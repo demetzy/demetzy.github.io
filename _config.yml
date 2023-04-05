@@ -7,7 +7,6 @@ theme: jekyll-theme-chirpy
 # and doesn't have a custom domain.
 baseurl: ''
 
-
 lang: en
 
 # http://www.timezoneconverter.com/cgi-bin/findzone/findzone
@@ -16,22 +15,19 @@ timezone: America/Los_Angeles
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Notes
+title: Kinda Notes
 
 # it will display as the sub-title
-tagline: Notes
+tagline: Quick Reference
 
-description: >-                        
- Notes 
+description: >- 
+  Kinda Notes
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
 
 github:
   username: demetzy
-
-#twitter:
-  #username: noname
 
 social:
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -46,32 +42,9 @@ google_site_verification:
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-google_analytics:
-  id:                 # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path:       # the local PV cache data, friendly to visitors from GFW region
-
-# Prefer color scheme setting.
-#
-# Note: Keep empty will follow the system prefer color by default,
-# and there will be a toggle to switch the theme between dark and light
-# on the bottom left of the sidebar.
-#
-# Available options:
-#
-#     light  - Use the light color scheme
-#     dark   - Use the dark color scheme
-#
+# Site Theme:
+# light or dark; leave empty for custom preference
 theme_mode:
-
-# The CDN endpoint for images.
-# Notice that once it is assigned, the CDN url
-# will be added to all image (site avatar & posts' images) paths starting with '/'
-#
-# e.g. 'https://cdn.com'
-img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: 'https://avatars.githubusercontent.com/u/122690180?v=4'
@@ -112,7 +85,7 @@ pwa:
 
 paginate: 10
 
-# ------------ The following options are not recommended to be modified ------------------
+
 
 kramdown:
   syntax_highlighter: rouge
